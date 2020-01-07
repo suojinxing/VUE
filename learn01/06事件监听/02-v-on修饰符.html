@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+  <h2>{{message}}</h2>
+  <!-- 使用$就会自动调用浏览器生成的event作为参数传进方法。 -->
+  <!-- 正常情况下点击子元素，也就是点击了父元素。这就叫冒泡。 -->
+  <!-- .stop修饰符会阻止冒泡 -->
+  <div @click="divClick">
+    <p>aaa</p>
+    <button @click.stop="btnClick(message,$event)">按钮1</button>
+  </div>
+
+  <!-- .prevent修饰符,阻止默认事件 -->
+  <form action="/xxx">
+    <input type="submit" value="submit" @click.prevent="submitClick">
+  </form>
+
+  <!-- .keycode 监听键盘上键帽的点击 -->
+  <!-- keyup是按键事件，kedown是按下去的事件。前者用的多 -->
+  <!-- .enter修饰符 监听指定的回车键 -->
+  <input type="text" class="text" @keyup="keyUp">
+  <input type="text" class="text" @keyup.enter="keyEnterUp">
+
+  <!-- .once只触发一次点击 -->
+  <button @click.once="btn2Click">按钮2</button>
+</div>
+<script>
+  let app = new Vue({
+    el: '#app',
+    data: {
+      message: 'hello'
+    },
+    methods: {
+      btnClick(str, event) {
+        console.log("按钮被点中");
+      },
+      divClick() {
+        console.log("div被点中")
+      },
+      submitClick() {
+        console.log("自己的提交逻辑")
+      },
+      keyUp() {
+        console.log("按下键盘")
+      },
+      keyEnterUp() {
+        console.log("按下回车键")
+      },
+      btn2Click(){
+        console.log("执行一次？")
+      }
+    }
+  })
+</script>
+</body>
+</html>

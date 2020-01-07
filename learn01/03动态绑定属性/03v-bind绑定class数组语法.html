@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="../js/vue.js"></script>
+  <style>
+    .active {
+      color: red
+    }
+
+    .stop {
+      color: yellow;
+    }
+
+    .class1 {
+      font-size: 12px;
+    }
+
+    .class2 {
+      border: 1px aqua solid;
+    }
+
+  </style>
+</head>
+<body>
+<div id="app">
+  <h2 :class="[active,'class2']">{{message}}</h2>
+</div>
+<script>
+  let app = new Vue({
+    el: '#app',
+    data: {
+      message: 'hello',
+      active: 'stop',
+      class2: 'class2',
+      isClass1: true,
+      isClass2: false
+    },
+    methods: {
+      changeColor: function () {
+        this.isClass1 = !this.isClass1
+        this.isClass2 = !this.isClass2
+      },
+      getClass: function () {
+        return {class1:this.isClass1,class2:this.isClass2}
+      }
+    }
+  })
+</script>
+</body>
+</html>

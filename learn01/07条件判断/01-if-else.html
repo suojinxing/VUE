@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+  <h2 v-if="score>60">合格</h2>
+  <h2 v-else="score<=60">不合格</h2>
+
+</div>
+<script>
+  let app = new Vue({
+    el: '#app',
+    data: {
+      score: 88,
+      message: '合格'
+    },
+    methods: {
+
+    }
+  })
+</script>
+</body>
+</html>

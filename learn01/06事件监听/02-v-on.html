@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+  <h2>{{message}}</h2>
+  <!-- 使用$就会自动调用浏览器生成的event作为参数传进方法。 -->
+  <button @click="btn1Click(message,$event)">按钮1</button>
+  <button>按钮2</button>
+  <button>按钮3</button>
+  <button>按钮4</button>
+</div>
+<script>
+  let app = new Vue({
+    el: '#app',
+    data: {
+      message: 'hello'
+    },
+    methods: {
+      btn1Click(str, event) {
+        console.log(str + "......");
+        console.log(event);
+      }
+    }
+  })
+</script>
+</body>
+</html>

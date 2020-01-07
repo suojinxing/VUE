@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="../js/vue.js"></script>
+  <style>
+    .redFont{
+      color: red;
+    }
+    .point:hover{
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+<div id="app">
+  <ul>
+    <li class="point" @click="select(item,index)" :class="{redFont:selectIndex==index}" v-for="(item,index) in movies">{{index}}-{{item}}</li>
+  </ul>
+</div>
+<script>
+  let app = new Vue({
+    el: '#app',
+    data: {
+      movies: ['海王', 'Joker', '星际穿越'],
+      selectIndex: -1
+    },
+    methods: {
+      select: function (item,index) {
+        console.log(item)
+        this.selectIndex = index
+      }
+    }
+  })
+</script>
+</body>
+</html>

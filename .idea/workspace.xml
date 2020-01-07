@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="40e8b847-9a86-4e6c-9a15-3cc7cb2edbfd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/VUE.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/01vue/01hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/01vue/02list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/01vue/03计数器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/02vue/01-mustache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/02vue/02-v-once.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/02vue/03-v-html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/02vue/04v-text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/02vue/05v-pre.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/02vue/06v-colak.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/03动态绑定属性/01v-bind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/03动态绑定属性/02v-bind绑定class对象语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/03动态绑定属性/03v-bind绑定class数组语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/03动态绑定属性/04作业v-bind&amp;v-for.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/03动态绑定属性/05v-bind绑定style对象语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/04计算属性/01compute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/04计算属性/02compute复杂操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/04计算属性/03compute的setter和getter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/04计算属性/04compute和methods对比.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/05-ES6/01let&amp;var.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/05-ES6/02对象字面量.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/06事件监听/01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/06事件监听/02-v-on.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/06事件监听/02-v-on修饰符.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/07条件判断/01-if-else.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/07条件判断/02-切换登录案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/imgs/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/imgs/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn01/js/vue.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VovofsQuOlwraPVUtKRlhxgAmA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/learn01/07条件判断" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/learn01/07条件判断" />
+      <recent name="$PROJECT_DIR$/learn01/06事件监听" />
+      <recent name="$PROJECT_DIR$/learn01/06事件监听" />
+      <recent name="$PROJECT_DIR$/learn01/05-ES6" />
+      <recent name="$PROJECT_DIR$/learn01/04计算属性" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/learn01/07条件判断" />
+      <recent name="$PROJECT_DIR$/learn01/vuedemo" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40e8b847-9a86-4e6c-9a15-3cc7cb2edbfd" name="Default Changelist" comment="" />
+      <created>1577932438570</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577932438570</updated>
+      <workItem from="1577932439989" duration="10543000" />
+      <workItem from="1578011657823" duration="2756000" />
+      <workItem from="1578121270659" duration="519000" />
+      <workItem from="1578225365254" duration="49000" />
+      <workItem from="1578301112226" duration="1937000" />
+      <workItem from="1578362318748" duration="1532000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="221" y="89" key="SettingsEditor" timestamp="1577946125225">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1577946125225" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1577949339443">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1577949339443" />
+  </component>
+</project>

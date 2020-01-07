@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="../js/vue.js"></script>
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <h2>当前计数：{{counter}}</h2>
+  <!--    <button v-on:click="counter++">+</button>-->
+  <!--    <button v-on:click="counter&#45;&#45;">-</button>-->
+  <button @click="add">+</button>
+  <button @click="subtraction">-</button>
+</div>
+<script>
+  let app = new Vue({
+    el: '#app',
+    data: {
+      counter: 0
+    },
+    methods: {
+      add: function () {
+        this.counter++
+      },
+      subtraction: function () {
+        this.counter--
+      },
+      // 生命周期的函数。
+      beforeCreate: function () {
+
+      },
+      created: function () {
+
+      },
+      mounted: function () {
+
+      }
+    }
+  })
+</script>
+</body>
+</html>

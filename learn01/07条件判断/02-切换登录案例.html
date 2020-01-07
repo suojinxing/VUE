@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+  <span v-if="flag">
+    <label for="username">用户名/账号登录</label>
+    <input type="text" id="username" placeholder="用户名/账号">
+  </span>
+  <span v-else>
+    <label for="email">邮箱登录</label>
+    <input type="text" id="email" placeholder="邮箱">
+  </span>
+  <br>
+  <button @click="chanageLogin">切换登录方式</button>
+</div>
+<script>
+  let app = new Vue({
+    el: '#app',
+    data: {
+      flag: true
+    },
+    methods: {
+      chanageLogin() {
+        this.flag = !this.flag
+      }
+    }
+  })
+</script>
+</body>
+</html>
