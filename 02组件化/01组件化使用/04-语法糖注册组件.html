@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+  <cpn1></cpn1>
+</div>
+<script>
+  // 1. 定义第一个组件
+
+  //2 .语法糖注册组件
+  Vue.component('cpn1', {
+    template: `
+      <div>
+        <h2>我是组件一</h2>
+      </div>
+    `
+  })
+
+  let app = new Vue({
+    el: '#app',
+    data: {
+      message: 'hello'
+    },
+    components: {
+      // 2. 注册局部组件。
+      cpn2: {
+        template: `
+          <div>
+            <h2>我是组件一</h2>
+          </div>
+        `
+      }
+    }
+  })
+</script>
+</body>
+</html>
