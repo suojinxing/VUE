@@ -1,18 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40e8b847-9a86-4e6c-9a15-3cc7cb2edbfd" name="Default Changelist" comment="Vue学习。">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn01/07条件判断/03-v-show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn01/08循环遍历/01-遍历数组.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn01/08循环遍历/02-遍历对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn01/08循环遍历/03-v-for使用过程添加key.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn01/08循环遍历/03-v-for数组哪些方法时响应式的.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn01/09购物车案例/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn01/09购物车案例/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn01/09购物车案例/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn01/10ES6高阶函数/高阶函数.html" afterDir="false" />
+    <list default="true" id="40e8b847-9a86-4e6c-9a15-3cc7cb2edbfd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/01基础/10ES6高阶函数/高阶函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01基础/11-v-model/01-v-model基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01基础/11-v-model/02-v-model本质.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01基础/11-v-model/03-v-model-radio更多表单属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01基础/11-v-model/04-v-model-checkbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01基础/11-v-model/04-v-model-select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01基础/11-v-model/05-v-model-值绑定.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01基础/11-v-model/06-v-model-修饰符.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/01vue/01hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/01vue/01hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/01vue/02list.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/01vue/02list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/01vue/03计数器.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/01vue/03计数器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/02vue/01-mustache.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/02vue/01-mustache.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/02vue/02-v-once.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/02vue/02-v-once.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/02vue/03-v-html.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/02vue/03-v-html.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/02vue/04v-text.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/02vue/04v-text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/02vue/05v-pre.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/02vue/05v-pre.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/02vue/06v-colak.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/02vue/06v-colak.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/03动态绑定属性/01v-bind.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/03动态绑定属性/01v-bind.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/03动态绑定属性/02v-bind绑定class对象语法.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/03动态绑定属性/02v-bind绑定class对象语法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/03动态绑定属性/03v-bind绑定class数组语法.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/03动态绑定属性/03v-bind绑定class数组语法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/03动态绑定属性/04作业v-bind&amp;v-for.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/03动态绑定属性/04作业v-bind&amp;v-for.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/03动态绑定属性/05v-bind绑定style对象语法.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/03动态绑定属性/05v-bind绑定style对象语法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/04计算属性/01compute.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/04计算属性/01compute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/04计算属性/02compute复杂操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/04计算属性/02compute复杂操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/04计算属性/03compute的setter和getter.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/04计算属性/03compute的setter和getter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/04计算属性/04compute和methods对比.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/04计算属性/04compute和methods对比.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/05-ES6/01let&amp;var.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/05-ES6/01let&amp;var.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/05-ES6/02对象字面量.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/05-ES6/02对象字面量.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/06事件监听/01.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/06事件监听/01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/06事件监听/02-v-on.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/06事件监听/02-v-on.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/06事件监听/02-v-on修饰符.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/06事件监听/02-v-on修饰符.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/07条件判断/01-if-else.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/07条件判断/01-if-else.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/07条件判断/02-切换登录案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/07条件判断/02-切换登录案例.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/07条件判断/03-v-show.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/07条件判断/03-v-show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/08循环遍历/01-遍历数组.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/08循环遍历/01-遍历数组.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/08循环遍历/02-遍历对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/08循环遍历/02-遍历对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/08循环遍历/03-v-for使用过程添加key.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/08循环遍历/03-v-for使用过程添加key.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/08循环遍历/03-v-for数组哪些方法时响应式的.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/08循环遍历/03-v-for数组哪些方法时响应式的.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/09购物车案例/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/09购物车案例/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/09购物车案例/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/09购物车案例/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/09购物车案例/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/09购物车案例/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/10ES6高阶函数/高阶函数.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/imgs/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/imgs/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/imgs/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/imgs/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn01/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/01基础/js/vue.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,20 +85,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/learn01/08循环遍历" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/learn01/11-v-model" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/learn01/07条件判断" />
+      <recent name="$PROJECT_DIR$/learn01/vuedemo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/learn01/11-v-model" />
       <recent name="$PROJECT_DIR$/learn01/08循环遍历" />
       <recent name="$PROJECT_DIR$/learn01/07条件判断" />
       <recent name="$PROJECT_DIR$/learn01/06事件监听" />
       <recent name="$PROJECT_DIR$/learn01/06事件监听" />
-      <recent name="$PROJECT_DIR$/learn01/05-ES6" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/learn01/07条件判断" />
-      <recent name="$PROJECT_DIR$/learn01/vuedemo" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -93,7 +128,9 @@
       <workItem from="1578121270659" duration="519000" />
       <workItem from="1578225365254" duration="49000" />
       <workItem from="1578301112226" duration="1937000" />
-      <workItem from="1578362318748" duration="8148000" />
+      <workItem from="1578362318748" duration="8287000" />
+      <workItem from="1578389147147" duration="650000" />
+      <workItem from="1578529070136" duration="4030000" />
     </task>
     <task id="LOCAL-00001" summary="Vue学习。">
       <created>1578364425130</created>
@@ -102,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578364425130</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.实现一个购物车案例。&#10;2.学习高阶函数filter,map,reduce。">
+      <created>1578378895670</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578378895670</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,13 +154,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Vue学习。" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vue学习。" />
+    <MESSAGE value="1.实现一个购物车案例。&#10;2.学习高阶函数filter,map,reduce。" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.实现一个购物车案例。&#10;2.学习高阶函数filter,map,reduce。" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="301" y="32" key="CommitChangelistDialog2" timestamp="1578365758188">
+    <state x="301" y="32" key="CommitChangelistDialog2" timestamp="1578378895543">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="301" y="32" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578365758188" />
+    <state x="301" y="32" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578378895543" />
     <state x="301" y="52" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1578364424966" />
     <state x="584" y="355" key="Github.ShareDialog" timestamp="1578364463591">
       <screen x="0" y="0" width="1440" height="900" />
@@ -126,6 +171,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1577946125225" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1578529750662">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1578529750662" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1578378897672">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578378897672" />
     <state x="297" y="46" width="845" height="807" key="find.popup" timestamp="1578365729606">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

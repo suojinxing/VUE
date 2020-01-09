@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+  <label for='agree'>
+    <input type="checkbox" id="agree" v-model="isAgree">同意协议
+  </label>
+  <h2>{{isAgree}}</h2>
+  <hr>
+  <label for="aaa">
+    <input id="aaa" type="checkbox" value="ball" v-model="habbies">ball
+  </label>
+  <label for="bbb">
+    <input id="bbb" type="checkbox" value="aaa" v-model="habbies">aaa
+  </label>
+  <label for="ccc">
+    <input id="ccc" type="checkbox" value="bbb" v-model="habbies">bbb
+  </label>
+  <label for="ddd">
+    <input id="ddd" type="checkbox" value="ccc" v-model="habbies">ccc
+  </label>
+
+  <h2>{{habbies}}</h2>
+</div>
+<script>
+  let app = new Vue({
+    el: '#app',
+    data: {
+      isAgree: true,
+      habbies: []
+    }
+  })
+</script>
+</body>
+</html>

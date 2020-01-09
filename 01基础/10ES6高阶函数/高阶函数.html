@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  for (var i = 0; i < 5; i++) {
+    setTimeout(() => {console.log(i)}, 1000) // 延时一秒再打印
+    // 在浏览器控制台会输出五次5，而不是想象中的0，1，2，3，4
+
+  }
+  console.log(i); // 浏览器还会输出5
+
+  for (let i = 0; i < 5; i++) {
+    // 在浏览器控制台输出0，1，2，3，4
+    setTimeout(() => {console.log(i)}, 1000) // 延时一秒再打印
+  }
+
+  // 下句话会报错没有作用域。因为在for之外没有i这个变量不可使用。使用let比较安全。
+  console.log(i)
+
+
+  // console.log(box());
+  // console.log(box()[1]);
+
+  // console.log(box());                                    //执行5次匿名函数本身
+  // console.log(box()[1]);　　　　　　　　　　　　　　　　　　　//执行第2个匿名函数本身
+  // console.log(box().length);                            //最终返回的是一个数组，数组的长度为5
+  // console.log(box()[0]());
+
+
+  // let numbers = [12, 43, 23, 123, 555, 12, 34, 55]
+  // // filter 取出数组中小于100的数
+  // let numbersLh100 = numbers.filter(n => {
+  //   return n < 100
+  // })
+  // console.log(numbersLh100);
+  //
+  // // map 数组中的值*2
+  // let numbers2 = numbers.map(n => {
+  //   return n * 2;
+  // })
+  // console.log(numbers2);
+  //
+  // // reduce 作用==> 对数组的内容进行汇总
+  // let total = numbers.reduce((previousValue,n) => {
+  //   return previousValue + n
+  // },0)
+  // console.log(total);
+</script>
+</body>
+</html>
