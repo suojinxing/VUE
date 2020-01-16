@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+  <cpn :cmessage="message" :cmovies="movies"></cpn>
+</div>
+<template id="cpn">
+  <div>
+    <p>{{cmessage}}</p>
+    <h2>{{cmovies}}</h2>
+    <ul>
+      <li v-for="item in cmovies">{{item}}</li>
+    </ul>
+  </div>
+</template>
+<script>
+  const cpn = {
+    template: '#cpn',
+    // props: ['cmessage','cmovies']
+    props: {
+      // cmovies: Array,
+      // cmessage: String
+      cmovies: {
+        type: Array,
+        default(){
+          return []
+        }
+      },
+      cmessage: {
+        type: String,
+        default: '指定默认值。',
+        required: true // 加上该属性表示：必须传递这个参数，否则报错
+      }
+    }
+  }
+  let app = new Vue({
+    el: '#app',
+    data: {
+      message: 'hello',
+      movies: ['海王1', '海王2', '海王3', '海王4']
+    },
+    components: {
+      cpn // 字面量增强写法：等同于cpn: cpn
+    }
+  })
+</script>
+</body>
+</html>
