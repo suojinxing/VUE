@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vue右键点击</title>
+  <script src="../js/vue.js"></script>
+</head>
+<body>
+
+<div @click="hideMenu" id="app" style="width: 500px;height: 200px;border: 1px black solid">
+  <div id="box" style="width: 200px;border: 1px black solid" @contextmenu.prevent.stop="show">{{record}}</div>
+  <div id="menu" ref="menu" v-show="IsShowMenu">
+    <contextmenu></contextmenu>
+  </div>
+</div>
+<template id="contextmenu">
+  <div>
+    <div style="width: 100px;border: 1px black solid">删除</div>
+    <div style="width: 100px;border: 1px black solid">编辑</div>
+  </div>
+</template>
+<script>
+  let app = new Vue({
+    el: '#app',
+    data: {
+      record: {
+        name: 'sjx',
+        age: 21
+      },
+      IsShowMenu: false,
+      fontRed: 'color: red;'
+    },
+    methods: {
+      show(e) {
+        // 父组件访问子组件的方法。
+        let menu = this.$refs.menu;
+        console.log(menu)
+        menu.style.position = 'absolute'
+        // menu.style.display = 'block'
+        this.IsShowMenu = true
+        menu.style.top = e.clientY + 'px'
+        menu.style.left = e.clientX + 'px'
+      },
+      hideMenu(){
+
+      }
+    },
+    created() {
+      document.addEventListener('click', (e) => {
+        if (e.target.id !== 'box') {
+          this.IsShowMenu = false;
+          console.log(this.IsShowMenu);
+        }
+      })
+    },
+    components: {
+      contextmenu: {
+        template: '#contextmenu'
+      }
+    }
+  })
+</script>
+</body>
+</html>

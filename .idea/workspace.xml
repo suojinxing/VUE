@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40e8b847-9a86-4e6c-9a15-3cc7cb2edbfd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02组件化/01组件化使用/06-组件访问Vue实例的问题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02组件化/01组件化使用/07-组件中的data为什么必须是函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02组件化/01组件化使用/08-父组件向子组件传递数据.html" afterDir="false" />
+    <list default="true" id="40e8b847-9a86-4e6c-9a15-3cc7cb2edbfd" name="Default Changelist" comment="ES6">
+      <change afterPath="$PROJECT_DIR$/02组件化/01组件化使用/09-父传子(props中的驼峰标识).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02组件化/01组件化使用/10-子传父（自定义事件）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02组件化/01组件化使用/11-父子组件通信案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02组件化/01组件化使用/11-父子组件通信案例正确双向绑定.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02组件化/01组件化使用/12-父操作子元素$children.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02组件化/01组件化使用/13-子操作父元素$parent---基本不用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02组件化/01组件化使用/14-Slot插槽简单使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02组件化/01组件化使用/15-Slot具名插槽.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03Test/contextmenu/contextmenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03Test/indexUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03Test/js/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03Test/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03Test/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04ES6模块化/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04ES6模块化/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04ES6模块化/index2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04ES6模块化/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04ES6模块化/mmm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +30,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="tsconfig.json" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -28,6 +46,12 @@
         <option value="$PROJECT_DIR$/.idea" />
       </set>
     </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1VovofsQuOlwraPVUtKRlhxgAmA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -44,19 +68,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/02组件化/01组件化使用" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/02组件化/01组件化使用" />
-      <recent name="$PROJECT_DIR$/02组件化/01组件化使用" />
-      <recent name="$PROJECT_DIR$/02组件化" />
-      <recent name="$PROJECT_DIR$/learn01/11-v-model" />
-      <recent name="$PROJECT_DIR$/learn01/08循环遍历" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/learn01/07条件判断" />
       <recent name="$PROJECT_DIR$/learn01/vuedemo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/02组件化/01组件化使用" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/04ES6模块化" />
+      <recent name="$PROJECT_DIR$/04ES6模块化" />
+      <recent name="$PROJECT_DIR$/02组件化/01组件化使用" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -89,7 +113,16 @@
       <workItem from="1578362318748" duration="8287000" />
       <workItem from="1578389147147" duration="650000" />
       <workItem from="1578529070136" duration="6983000" />
-      <workItem from="1579174450922" duration="2747000" />
+      <workItem from="1579174450922" duration="2779000" />
+      <workItem from="1579260862458" duration="4825000" />
+      <workItem from="1579328315724" duration="1247000" />
+      <workItem from="1579390498760" duration="5521000" />
+      <workItem from="1579520255442" duration="1098000" />
+      <workItem from="1579851952224" duration="2400000" />
+      <workItem from="1579932519572" duration="948000" />
+      <workItem from="1580003098652" duration="188000" />
+      <workItem from="1580014053388" duration="36000" />
+      <workItem from="1580095259815" duration="2980000" />
     </task>
     <task id="LOCAL-00001" summary="Vue学习。">
       <created>1578364425130</created>
@@ -119,48 +152,77 @@
       <option name="project" value="LOCAL" />
       <updated>1578541321348</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="父组件向子组件传递数据。">
+      <created>1579180954246</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579180954246</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ES6">
+      <created>1579852328387</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579852328387</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Vue学习。" />
     <MESSAGE value="1.实现一个购物车案例。&#10;2.学习高阶函数filter,map,reduce。" />
     <MESSAGE value="基础" />
     <MESSAGE value="Vue组件化。" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vue组件化。" />
+    <MESSAGE value="父组件向子组件传递数据。" />
+    <MESSAGE value="ES6" />
+    <option name="LAST_COMMIT_MESSAGE" value="ES6" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="301" y="32" key="CommitChangelistDialog2" timestamp="1578541321218">
+    <state x="301" y="32" key="CommitChangelistDialog2" timestamp="1580095292149">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="301" y="32" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578541321218" />
+    <state x="301" y="32" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580095292149" />
     <state x="301" y="32" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1578536498534" />
     <state x="584" y="355" key="Github.ShareDialog" timestamp="1578364463591">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="584" y="355" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1578364463591" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1578543771657">
+    <state x="221" y="89" key="SettingsEditor" timestamp="1579521353018">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578543771657" />
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1579521353018" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1578529750662">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1578529750662" />
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1578541323211">
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1579852330726">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578541323211" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579852330726" />
     <state x="297" y="46" width="845" height="807" key="find.popup" timestamp="1578365729606">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="297" y="46" width="845" height="807" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1578365729606" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1578541072878">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1579275882085">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1578541072878" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1579275882085" />
   </component>
 </project>

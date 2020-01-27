@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="../js/vue.js"></script>
+</head>
+<body>
+<!--父组件模板-->
+<div id="app">
+  <h2>{{message}}</h2>
+<!-- 自定义事件默认传递自己的参数，其他事件传递$event -->
+  <cpn @itemclick="itemclick"></cpn>
+</div>
+
+<!--子组件模板-->
+<template id="cpn">
+  <div>
+    <h2></h2>
+    <button v-for="item in categroies"
+            @click="btnclick(item)">{{item.title}}
+    </button>
+  </div>
+</template>
+<script>
+  // 子组件
+  const cpn = {
+    template: '#cpn',
+    data() {
+      return {
+        categroies: [
+          {id: 'aaa', title: '热门推荐'},
+          {id: 'bbb', title: '手机数码'},
+          {id: 'ccc', title: '家电'},
+          {id: 'ddd', title: '电脑办公'}
+        ]
+      }
+    },
+    methods:{
+      btnclick(item){
+        this.$emit('itemclick',item)
+      }
+    }
+  }
+
+
+  // 父组件
+  let app = new Vue({
+    el: '#app',
+    data: {
+      message: 'hello'
+    },
+    components: {
+      cpn
+    },
+    methods: {
+      itemclick(item){
+        console.log(item);
+      }
+    }
+  })
+</script>
+</body>
+</html>

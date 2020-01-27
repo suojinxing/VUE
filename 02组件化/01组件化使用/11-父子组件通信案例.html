@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="../js/vue.js"></script>
+</head>
+<body>
+<!--父子组件实现双向绑定的时候使用data或者计算属性，而不要使用props直接修改-->
+<div id="app">
+  <cpn :number1="num1"></cpn>
+</div>
+<template id="cpn">
+  <div>
+    <h2></h2>
+
+    <input v-model="number1" type="text" name="">
+  </div>
+</template>
+<script>
+  let app = new Vue({
+    el: '#app',
+    data: {
+      num1: 1,
+      num0: 0
+    },
+    components: {
+      cpn:{
+        template: '#cpn',
+        props:{
+          number1: Number
+        }
+      }
+    }
+  })
+</script>
+</body>
+</html>
